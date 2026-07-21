@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 560" role="img" aria-labelledby="title desc">
+<title id="title">NUIT AMBRE perfume bottle</title><desc id="desc">Stylized luxury perfume bottle illustration.</desc>
+<defs>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".82"/><stop offset=".28" stop-color="#d1aa65" stop-opacity=".7"/><stop offset=".72" stop-color="#b78d4e" stop-opacity=".88"/><stop offset="1" stop-color="#171311" stop-opacity=".98"/></linearGradient>
+  <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#3a3631"/><stop offset="1" stop-color="#0e0d0c"/></linearGradient>
+  <linearGradient id="label" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0e8dc"/><stop offset="1" stop-color="#d8c9b6"/></linearGradient>
+  <filter id="shadow" x="-40%" y="-30%" width="180%" height="190%"><feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#000" flood-opacity=".28"/></filter>
+</defs>
+<g filter="url(#shadow)">
+  <path d="M130 18h100v74H130z" rx="8" fill="url(#cap)"/>
+  <path d="M143 91h74v27h-74z" fill="#b39a77"/>
+  <path d="M110 117h140l28 58v305c0 34-23 55-57 55h-82c-34 0-57-21-57-55V175l28-58Z" fill="url(#glass)" stroke="#fff" stroke-opacity=".45" stroke-width="3"/>
+  <path d="M112 119h14v397" fill="none" stroke="#fff" stroke-opacity=".34" stroke-width="8"/>
+  <path d="M245 130c11 26 15 56 15 88v234" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="5"/>
+  <rect x="110" y="256" width="140" height="145" rx="3" fill="url(#label)" opacity=".96"/>
+  <rect x="119" y="265" width="122" height="127" rx="1" fill="none" stroke="#171311" stroke-opacity=".28"/>
+  <text x="180" y="292" text-anchor="middle" font-family="Georgia,serif" font-size="13" letter-spacing="5" fill="#171311">AURELLE</text>
+  <path d="M140 314h80" stroke="#171311" stroke-opacity=".4"/>
+  <text x="180" y="345" text-anchor="middle" font-family="Georgia,serif" font-size="20" letter-spacing="3" fill="#171311">NUIT</text>
+  <text x="180" y="373" text-anchor="middle" font-family="Georgia,serif" font-size="20" letter-spacing="3" fill="#171311">AMBRE</text>
+  <text x="180" y="388" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" letter-spacing="2" fill="#171311" opacity=".7">EXTRAIT DE PARFUM · 50 ML</text>
+</g>
+</svg>
