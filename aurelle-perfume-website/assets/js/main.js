@@ -2,6 +2,9 @@
     'use strict';
 
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('[data-current-year]').forEach((element) => {
+        element.textContent = String(new Date().getFullYear());
+    });
     const loader = document.getElementById('siteLoader');
     const loaderPercent = document.getElementById('loaderPercent');
     const loaderBar = document.getElementById('loaderBar');
@@ -165,5 +168,37 @@
             button.innerHTML = '<i class="bi bi-check-lg"></i>';
             button.classList.add('is-added');
         });
+    });
+
+    const contactForm = document.getElementById('contactForm');
+    contactForm?.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const name = contactForm.elements.name.value.trim();
+        const email = contactForm.elements.email;
+        const message = contactForm.elements.message.value.trim();
+        const errors = [];
+
+        if (!name) errors.push('Please enter your name.');
+        if (!email.value.trim() || !email.validity.valid) errors.push('Please enter a valid email address.');
+        if (!message) errors.push('Please tell us how we can assist.');
+
+        contactForm.parentElement.querySelector('.alert-danger')?.remove();
+        if (errors.length) {
+            const alert = document.createElement('div');
+            alert.className = 'alert alert-danger';
+            errors.forEach((error) => {
+                const line = document.createElement('div');
+                line.textContent = error;
+                alert.appendChild(line);
+            });
+            contactForm.before(alert);
+            return;
+        }
+
+        const success = document.createElement('div');
+        success.className = 'success-state';
+        success.innerHTML = '<i class="bi bi-check2-circle"></i><h2></h2><p>Your note has been received. A fragrance advisor will reply shortly.</p><a href="index.html" class="btn-luxury btn-luxury-dark">Return home</a>';
+        success.querySelector('h2').textContent = `Thank you, ${name}.`;
+        contactForm.parentElement.replaceChildren(success);
     });
 })();

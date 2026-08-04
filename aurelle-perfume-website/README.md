@@ -1,14 +1,14 @@
 # Aurelle Premium Perfume Website
 
-A five-page PHP and Bootstrap 5 perfume website with a reference-matched premium homepage.
+A five-page static HTML and Bootstrap 5 perfume website with a reference-matched premium homepage.
 
 ## Pages
 
-- `index.php` — animated product-slider homepage
-- `collection.php` — fragrance collection and family filters
-- `story.php` — maison story and production process
-- `journal.php` — editorial fragrance journal
-- `contact.php` — enquiry form
+- `index.html` — animated product-slider homepage
+- `collection.html` — fragrance collection and family filters
+- `story.html` — maison story and production process
+- `journal.html` — editorial fragrance journal
+- `contact.html` — client-side enquiry form
 
 ## Homepage experience
 
@@ -28,14 +28,14 @@ A five-page PHP and Bootstrap 5 perfume website with a reference-matched premium
 ## Run locally
 
 ```bash
-php -S localhost:8000
+python3 -m http.server 8000
 ```
 
 Open `http://localhost:8000`.
 
 ## Stack
 
-- PHP 8+
+- Static HTML5
 - Bootstrap 5.3
 - Bootstrap Icons
 - GSAP + ScrollTrigger

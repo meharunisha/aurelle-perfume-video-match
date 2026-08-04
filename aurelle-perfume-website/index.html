@@ -1,0 +1,591 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11100e">
+    <meta name="description" content="Aurelle premium fragrance house - modern perfume compositions created with rare ingredients and quiet craftsmanship.">
+    <title>Organic Luxury Fragrance | AURELLE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap-fallback.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home-premium.css">
+</head>
+<body class="home-page premium-reference-home" data-page="home">
+
+<div class="site-loader" id="siteLoader" aria-live="polite" aria-label="Loading website">
+    <div class="loader-aura" aria-hidden="true"></div>
+    <div class="loader-inner">
+        <div class="loader-brand-row">
+            <div>
+                <div class="loader-brand">AURELLE<span>.</span></div>
+                <div class="loader-subbrand">MAISON DE PARFUM</div>
+            </div>
+            <div class="loader-percent"><span id="loaderPercent">0</span>%</div>
+        </div>
+        <div class="loader-track"><span id="loaderBar"></span></div>
+        <div class="loader-meta"><span>BOTANICAL EXTRAITS</span><span>LOADING THE EXPERIENCE</span></div>
+    </div>
+</div>
+
+<div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+<header class="site-header fixed-top" id="siteHeader">
+    <nav class="navbar navbar-expand-lg" aria-label="Primary navigation">
+        <div class="container-fluid px-3 px-lg-5">
+            <a class="navbar-brand brand-lockup" href="index.html" aria-label="Aurelle home">
+                <span class="brand-name">AURELLE</span>
+                <span class="brand-tag">MAISON DE PARFUM</span>
+            </a>
+
+            <button class="navbar-toggler menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-label="Open menu">
+                <span></span><span></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center d-none d-lg-flex">
+                <ul class="navbar-nav nav-luxury gap-xl-4">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link " href="collection.html">Collection</a></li>
+                    <li class="nav-item"><a class="nav-link " href="story.html">Our Story</a></li>
+                    <li class="nav-item"><a class="nav-link " href="journal.html">Journal</a></li>
+                    <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="header-actions d-flex align-items-center gap-2">
+                <button class="icon-btn d-none d-sm-inline-flex" type="button" aria-label="Search"><i class="bi bi-search"></i></button>
+                <a class="icon-btn" href="collection.html" aria-label="Shopping bag"><i class="bi bi-bag"></i><span class="bag-count">0</span></a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="offcanvas offcanvas-end mobile-nav" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+    <div class="offcanvas-header px-4 pt-4">
+        <div id="mobileMenuLabel" class="brand-lockup">
+            <span class="brand-name">AURELLE</span>
+            <span class="brand-tag">MAISON DE PARFUM</span>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column px-4 pb-4">
+        <nav class="mobile-links my-auto">
+            <a class="active" href="index.html"><span>01</span> Home</a>
+            <a class="" href="collection.html"><span>02</span> Collection</a>
+            <a class="" href="story.html"><span>03</span> Our Story</a>
+            <a class="" href="journal.html"><span>04</span> Journal</a>
+            <a class="" href="contact.html"><span>05</span> Contact</a>
+        </nav>
+        <div class="mobile-nav-footer">
+            <p>Private consultations<br>Monday–Saturday, 10:00–19:00</p>
+            <div class="d-flex gap-3"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a></div>
+        </div>
+    </div>
+</div>
+
+<main>
+
+
+<section class="video-match-hero" id="home" aria-label="Featured perfumes">
+    <div class="hero-noise-layer" aria-hidden="true"></div>
+    <div class="hero-big-orb" aria-hidden="true"></div>
+    <div class="hero-floating-social" aria-label="Social links">
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+        <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+    </div>
+
+    <div class="container-fluid hero-shell px-3 px-md-4 px-xl-5">
+        <div class="row align-items-center min-vh-100 gy-5">
+            <div class="col-lg-6 col-xl-5 hero-copy-column">
+                <div class="hero-copy-stack">
+                        <article class="hero-copy-panel is-active" data-hero-copy="0">
+                            <span class="hero-eyebrow">100% organic · cruelty free</span>
+                            <h1>
+                                    <span class="hero-line"><span>Nature&#039;s Organic</span></span>
+                                    <span class="hero-line"><span>Fragrance</span></span>
+                            </h1>
+                            <p>Created with pure botanical extracts, our fragrances bring nature&#039;s most beautiful notes closer to your skin.</p>
+                            <div class="hero-actions d-flex flex-wrap gap-3">
+                                <a href="collection.html" class="video-pill video-pill-light">Shop now</a>
+                                <a href="story.html" class="video-pill video-pill-outline">Learn more</a>
+                            </div>
+                        </article>
+                        <article class="hero-copy-panel " data-hero-copy="1">
+                            <span class="hero-eyebrow">warm woods · slow luxury</span>
+                            <h1>
+                                    <span class="hero-line"><span>Earthy Notes,</span></span>
+                                    <span class="hero-line"><span>Quiet Confidence</span></span>
+                            </h1>
+                            <p>Sandalwood, tobacco leaf and soft amber create a deep fragrance with a calm, elegant trail.</p>
+                            <div class="hero-actions d-flex flex-wrap gap-3">
+                                <a href="collection.html" class="video-pill video-pill-light">Shop now</a>
+                                <a href="story.html" class="video-pill video-pill-outline">Learn more</a>
+                            </div>
+                        </article>
+                        <article class="hero-copy-panel " data-hero-copy="2">
+                            <span class="hero-eyebrow">lavender bloom · modern musk</span>
+                            <h1>
+                                    <span class="hero-line"><span>Blue Bloom,</span></span>
+                                    <span class="hero-line"><span>Softly Electric</span></span>
+                            </h1>
+                            <p>Lavender, iris and mineral musk meet in a luminous composition made for vivid, modern days.</p>
+                            <div class="hero-actions d-flex flex-wrap gap-3">
+                                <a href="collection.html" class="video-pill video-pill-light">Shop now</a>
+                                <a href="story.html" class="video-pill video-pill-outline">Learn more</a>
+                            </div>
+                        </article>
+                </div>
+
+                <div class="hero-bottom-controls">
+                    <button type="button" class="round-control" data-hero-prev aria-label="Previous perfume"><i class="bi bi-arrow-left"></i></button>
+                    <div class="hero-count"><strong id="heroCurrent">01</strong><span>/</span><span>03</span></div>
+                    <button type="button" class="round-control" data-hero-next aria-label="Next perfume"><i class="bi bi-arrow-right"></i></button>
+                    <span class="hero-drag-label">Drag to discover</span>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-xl-7 hero-product-column">
+                <div class="hero-product-stage" data-hero-parallax>
+                        <div class="hero-product-scene is-active scene-ruby" data-hero-art="0">
+                            <div class="scene-glow"></div>
+                            <div class="scene-arch"></div>
+                            <div class="scene-pedestal"></div>
+                            <span class="botanical botanical-a"></span>
+                            <span class="botanical botanical-b"></span>
+                            <span class="botanical botanical-c"></span>
+                            <span class="botanical botanical-d"></span>
+                            <span class="sparkle sparkle-a">✦</span>
+                            <span class="sparkle sparkle-b">✦</span>
+                            <img class="hero-main-bottle" src="assets/images/bottle-rose.svg" alt="Ruby Passion perfume bottle">
+                            <div class="hero-product-label">
+                                <small>Rose · raspberry · amber</small>
+                                <strong>Ruby Passion</strong>
+                                <span>50 ml · extrait de parfum</span>
+                            </div>
+                        </div>
+                        <div class="hero-product-scene  scene-amber" data-hero-art="1">
+                            <div class="scene-glow"></div>
+                            <div class="scene-arch"></div>
+                            <div class="scene-pedestal"></div>
+                            <span class="botanical botanical-a"></span>
+                            <span class="botanical botanical-b"></span>
+                            <span class="botanical botanical-c"></span>
+                            <span class="botanical botanical-d"></span>
+                            <span class="sparkle sparkle-a">✦</span>
+                            <span class="sparkle sparkle-b">✦</span>
+                            <img class="hero-main-bottle" src="assets/images/bottle-amber.svg" alt="Santal Eclipse perfume bottle">
+                            <div class="hero-product-label">
+                                <small>Santal · cacao · suede</small>
+                                <strong>Santal Eclipse</strong>
+                                <span>50 ml · extrait de parfum</span>
+                            </div>
+                        </div>
+                        <div class="hero-product-scene  scene-violet" data-hero-art="2">
+                            <div class="scene-glow"></div>
+                            <div class="scene-arch"></div>
+                            <div class="scene-pedestal"></div>
+                            <span class="botanical botanical-a"></span>
+                            <span class="botanical botanical-b"></span>
+                            <span class="botanical botanical-c"></span>
+                            <span class="botanical botanical-d"></span>
+                            <span class="sparkle sparkle-a">✦</span>
+                            <span class="sparkle sparkle-b">✦</span>
+                            <img class="hero-main-bottle" src="assets/images/bottle-iris.svg" alt="Blue Wave perfume bottle">
+                            <div class="hero-product-label">
+                                <small>Lavender · iris · clean musk</small>
+                                <strong>Blue Wave</strong>
+                                <span>50 ml · extrait de parfum</span>
+                            </div>
+                        </div>
+
+                    <div class="hero-product-selector" aria-label="Choose perfume">
+                            <button class="mini-bottle is-active" data-hero-index="0" type="button" aria-label="Show Ruby Passion">
+                                <img src="assets/images/bottle-rose.svg" alt="">
+                                <span>01</span>
+                            </button>
+                            <button class="mini-bottle " data-hero-index="1" type="button" aria-label="Show Santal Eclipse">
+                                <img src="assets/images/bottle-amber.svg" alt="">
+                                <span>02</span>
+                            </button>
+                            <button class="mini-bottle " data-hero-index="2" type="button" aria-label="Show Blue Wave">
+                                <img src="assets/images/bottle-iris.svg" alt="">
+                                <span>03</span>
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offer-ticker" aria-hidden="true">
+        <div class="offer-ticker-track">
+            <span>20% off your first order — code FRUITIVO20</span><i></i>
+            <span>100% organic & cruelty-free</span><i></i>
+            <span>New lavender blossom is here</span><i></i>
+            <span>Hand-blended in small batches</span><i></i>
+            <span>Free shipping on orders over $100</span><i></i>
+            <span>20% off your first order — code FRUITIVO20</span><i></i>
+        </div>
+    </div>
+</section>
+
+<section class="bestseller-section section-video-space" id="bestsellers">
+    <div class="container-fluid px-3 px-md-4 px-xl-5">
+        <div class="section-title-row text-center">
+            <span>Our icons</span>
+            <h2>Our Bestsellers</h2>
+            <p>Four signatures loved for their character, balance and lasting impression.</p>
+        </div>
+
+        <div class="row g-3 g-xl-4 bestseller-grid">
+                <div class="col-6 col-lg-3">
+                    <article class="bestseller-card reveal-video" data-card-tone="ruby">
+                        <div class="bestseller-bottle-wrap">
+                            <span class="product-halo"></span>
+                            <img src="assets/images/bottle-rose.svg" alt="Ruby Passion perfume bottle">
+                        </div>
+                        <div class="bestseller-card-body">
+                            <span>Velvet floral</span>
+                            <h3>Ruby Passion</h3>
+                            <strong>$72.00</strong>
+                            <button class="buy-now-button add-bag" type="button">Buy now</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <article class="bestseller-card reveal-video" data-card-tone="amber">
+                        <div class="bestseller-bottle-wrap">
+                            <span class="product-halo"></span>
+                            <img src="assets/images/bottle-amber.svg" alt="Santal Eclipse perfume bottle">
+                        </div>
+                        <div class="bestseller-card-body">
+                            <span>Amber woods</span>
+                            <h3>Santal Eclipse</h3>
+                            <strong>$84.00</strong>
+                            <button class="buy-now-button add-bag" type="button">Buy now</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <article class="bestseller-card reveal-video" data-card-tone="violet">
+                        <div class="bestseller-bottle-wrap">
+                            <span class="product-halo"></span>
+                            <img src="assets/images/bottle-iris.svg" alt="Blue Wave perfume bottle">
+                        </div>
+                        <div class="bestseller-card-body">
+                            <span>Aromatic floral</span>
+                            <h3>Blue Wave</h3>
+                            <strong>$64.00</strong>
+                            <button class="buy-now-button add-bag" type="button">Buy now</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <article class="bestseller-card reveal-video" data-card-tone="green">
+                        <div class="bestseller-bottle-wrap">
+                            <span class="product-halo"></span>
+                            <img src="assets/images/bottle-green.svg" alt="Cedar Rain perfume bottle">
+                        </div>
+                        <div class="bestseller-card-body">
+                            <span>Green woods</span>
+                            <h3>Cedar Rain</h3>
+                            <strong>$78.00</strong>
+                            <button class="buy-now-button add-bag" type="button">Buy now</button>
+                        </div>
+                    </article>
+                </div>
+        </div>
+    </div>
+    <svg class="section-wave section-wave-light" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 58C178 18 292 104 494 72c223-36 311-77 519-39 173 31 265 72 427 45v42H0Z"/></svg>
+</section>
+
+<section class="discovery-video-section section-video-space" id="discovery">
+    <div class="container-fluid px-3 px-md-4 px-xl-5">
+        <div class="section-title-row text-center section-title-dark">
+            <span>Stories & rituals</span>
+            <h2>Offers Worth Discovering</h2>
+        </div>
+
+        <div class="video-collage mt-5">
+            <article class="collage-card collage-tall collage-red reveal-video">
+                <div class="fashion-silhouette silhouette-one" aria-hidden="true"><span></span></div>
+                <div class="collage-caption"><strong>20% Off First Order</strong><span>Code FRUITIVO20</span></div>
+            </article>
+            <article class="collage-card collage-wide collage-sky reveal-video">
+                <div class="collage-copy"><small>BLUE WAVE</small><h3>A fresh perspective.</h3><p>Lavender, iris and the cool clarity of morning air.</p></div>
+                <img src="assets/images/bottle-iris.svg" alt="Blue Wave fragrance">
+            </article>
+            <article class="collage-card collage-small collage-charcoal reveal-video">
+                <div class="fashion-silhouette silhouette-two" aria-hidden="true"><span></span></div>
+                <div class="collage-caption"><strong>After Dark</strong><span>Amber stories</span></div>
+            </article>
+            <article class="collage-card collage-small collage-sand reveal-video">
+                <div class="fashion-silhouette silhouette-three" aria-hidden="true"><span></span></div>
+                <img src="assets/images/bottle-amber.svg" alt="Santal Eclipse fragrance">
+            </article>
+            <article class="collage-card collage-wide collage-black reveal-video">
+                <div class="collage-copy light"><small>RUBY PASSION</small><h3>Bold enough to remember.</h3><p>Rose, raspberry and velvet woods.</p></div>
+                <img src="assets/images/bottle-rose.svg" alt="Ruby Passion fragrance">
+            </article>
+            <article class="collage-card collage-wide collage-violet reveal-video">
+                <div class="collage-copy light"><small>THE NIGHT EDIT</small><h3>Fragrance after sunset.</h3></div>
+                <div class="fashion-silhouette silhouette-four" aria-hidden="true"><span></span></div>
+            </article>
+            <article class="collage-card collage-small collage-coral reveal-video">
+                <div class="fashion-silhouette silhouette-five" aria-hidden="true"><span></span></div>
+                <img src="assets/images/bottle-rose.svg" alt="Ruby Passion fragrance">
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="mood-video-section section-video-space" id="moods">
+    <div class="mood-video-glow" aria-hidden="true"></div>
+    <div class="container-fluid px-3 px-md-4 px-xl-5 position-relative">
+        <div class="section-title-row text-center text-white">
+            <span>Choose the atmosphere</span>
+            <h2>Find Your Fragrance Mood</h2>
+            <p>Drag through the collection and meet the scent that feels most like you.</p>
+        </div>
+
+        <div class="mood-video-track mt-5" data-drag-scroll>
+                <article class="mood-video-card mood-romantic">
+                    <span class="mood-number">01</span>
+                    <div class="mood-image-stage">
+                        <div class="mood-face" aria-hidden="true"><span></span></div>
+                        <img src="assets/images/bottle-rose.svg" alt="The Romantic perfume">
+                    </div>
+                    <div class="mood-card-copy">
+                        <h3>The Romantic</h3>
+                        <p>Rose petals, pear and warm skin musk.</p>
+                        <a href="collection.html">Explore mood <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </article>
+                <article class="mood-video-card mood-dreamer">
+                    <span class="mood-number">02</span>
+                    <div class="mood-image-stage">
+                        <div class="mood-face" aria-hidden="true"><span></span></div>
+                        <img src="assets/images/bottle-iris.svg" alt="The Dreamer perfume">
+                    </div>
+                    <div class="mood-card-copy">
+                        <h3>The Dreamer</h3>
+                        <p>Iris, lavender and weightless white woods.</p>
+                        <a href="collection.html">Explore mood <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </article>
+                <article class="mood-video-card mood-night">
+                    <span class="mood-number">03</span>
+                    <div class="mood-image-stage">
+                        <div class="mood-face" aria-hidden="true"><span></span></div>
+                        <img src="assets/images/bottle-noir.svg" alt="The Nocturnal perfume">
+                    </div>
+                    <div class="mood-card-copy">
+                        <h3>The Nocturnal</h3>
+                        <p>Saffron, amber and smoked vanilla.</p>
+                        <a href="collection.html">Explore mood <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </article>
+                <article class="mood-video-card mood-explorer">
+                    <span class="mood-number">04</span>
+                    <div class="mood-image-stage">
+                        <div class="mood-face" aria-hidden="true"><span></span></div>
+                        <img src="assets/images/bottle-azure.svg" alt="The Explorer perfume">
+                    </div>
+                    <div class="mood-card-copy">
+                        <h3>The Explorer</h3>
+                        <p>Sea salt, green fig and mineral cedar.</p>
+                        <a href="collection.html">Explore mood <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </article>
+                <article class="mood-video-card mood-grounded">
+                    <span class="mood-number">05</span>
+                    <div class="mood-image-stage">
+                        <div class="mood-face" aria-hidden="true"><span></span></div>
+                        <img src="assets/images/bottle-green.svg" alt="The Grounded perfume">
+                    </div>
+                    <div class="mood-card-copy">
+                        <h3>The Grounded</h3>
+                        <p>Juniper, vetiver and clean forest air.</p>
+                        <a href="collection.html">Explore mood <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </article>
+        </div>
+    </div>
+</section>
+
+<section class="story-video-section section-video-space">
+    <div class="container-fluid px-3 px-md-4 px-xl-5">
+        <div class="row align-items-center g-5 story-video-row">
+            <div class="col-lg-6 order-2 order-lg-1">
+                <span class="story-kicker">Consciously composed</span>
+                <h2 class="story-video-title">Beautiful perfume.<br><em>Better choices.</em></h2>
+                <p class="story-video-copy">We blend expressive naturals with modern perfumery to create memorable fragrances without unnecessary excess. Each bottle is made in small batches and wrapped with care.</p>
+                <div class="story-stat-grid">
+                    <div><strong>92%</strong><span>Naturally derived</span></div>
+                    <div><strong>0%</strong><span>Animal testing</span></div>
+                    <div><strong>50 ml</strong><span>Made to last</span></div>
+                </div>
+                <a href="story.html" class="video-pill video-pill-dark mt-4">Meet our atelier</a>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="story-image-composition reveal-video">
+                    <div class="story-arch"></div>
+                    <div class="story-profile" aria-hidden="true"><span></span></div>
+                    <img src="assets/images/bottle-rose.svg" alt="Aurelle perfume bottle">
+                    <span class="story-flower flower-one"></span>
+                    <span class="story-flower flower-two"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonial-video-section section-video-space">
+    <div class="container-fluid px-3 px-md-4 px-xl-5">
+        <div class="section-title-row text-center text-white">
+            <span>Real scent stories</span>
+            <h2>What Our Customers Say</h2>
+        </div>
+
+        <div class="row g-3 g-xl-4 mt-5">
+                <div class="col-md-6 col-xl-3">
+                    <article class="testimonial-video-card reveal-video t-red">
+                        <div class="testimonial-photo" aria-hidden="true"><span></span></div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote>“Ruby Passion is rich, polished and surprisingly wearable. I receive compliments every time.”</blockquote>
+                        <div class="testimonial-name"><strong>Mira K.</strong><span>Chennai</span></div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-3">
+                    <article class="testimonial-video-card reveal-video t-violet">
+                        <div class="testimonial-photo" aria-hidden="true"><span></span></div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote>“Blue Wave is clean and elegant without feeling ordinary. The bottle is beautiful too.”</blockquote>
+                        <div class="testimonial-name"><strong>Ananya R.</strong><span>Bengaluru</span></div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-3">
+                    <article class="testimonial-video-card reveal-video t-amber">
+                        <div class="testimonial-photo" aria-hidden="true"><span></span></div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote>“The discovery set helped me find my signature. Santal Eclipse develops beautifully over hours.”</blockquote>
+                        <div class="testimonial-name"><strong>Rhea S.</strong><span>Mumbai</span></div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-xl-3">
+                    <article class="testimonial-video-card reveal-video t-green">
+                        <div class="testimonial-photo" aria-hidden="true"><span></span></div>
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote>“Cedar Rain feels fresh, calm and expensive. The packaging experience was excellent.”</blockquote>
+                        <div class="testimonial-name"><strong>Nisha V.</strong><span>Hyderabad</span></div>
+                    </article>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="final-offers-section section-video-space">
+    <div class="container-fluid px-3 px-md-4 px-xl-5">
+        <div class="row g-3 g-xl-4">
+            <div class="col-lg-6">
+                <article class="final-offer-card final-offer-light reveal-video">
+                    <div class="final-offer-copy">
+                        <span>New customer privilege</span>
+                        <h2>Get Your First Scent for Less</h2>
+                        <p>Enjoy 20% off your first order and receive two complimentary samples.</p>
+                        <a href="collection.html" class="video-pill video-pill-dark">Shop now</a>
+                    </div>
+                    <div class="final-offer-art final-art-gold"><img src="assets/images/bottle-amber.svg" alt="Santal Eclipse perfume"></div>
+                </article>
+            </div>
+            <div class="col-lg-6">
+                <article class="final-offer-card final-offer-dark reveal-video">
+                    <div class="final-offer-copy">
+                        <span>Find your signature</span>
+                        <h2>Try the Discovery Collection</h2>
+                        <p>Five fragrances, one week of discovery and a credit toward your full bottle.</p>
+                        <a href="collection.html" class="video-pill video-pill-light">Discover the set</a>
+                    </div>
+                    <div class="final-offer-art final-art-red"><img src="assets/images/bottle-rose.svg" alt="Ruby Passion perfume"></div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="video-newsletter-section">
+    <svg class="newsletter-wave" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true"><path d="M0 78C195 19 370 128 615 78c236-48 371-76 580-30 97 21 171 44 245 31v61H0Z"/></svg>
+    <div class="container-fluid px-3 px-md-4 px-xl-5 position-relative">
+        <div class="row align-items-center gy-4">
+            <div class="col-lg-7">
+                <span>News from the fragrance room</span>
+                <h2>Stay close to what comes next.</h2>
+            </div>
+            <div class="col-lg-5">
+                <form class="video-newsletter-form" action="#" method="post" onsubmit="return false;">
+                    <label class="visually-hidden" for="videoEmail">Email address</label>
+                    <input id="videoEmail" type="email" placeholder="Your email address" required>
+                    <button type="submit" aria-label="Subscribe"><i class="bi bi-arrow-right"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+<footer class="site-footer">
+    <div class="container-fluid px-3 px-lg-5">
+        <div class="footer-top row gy-5 align-items-start">
+            <div class="col-lg-5">
+                <div class="footer-wordmark">AURELLE</div>
+                <p class="footer-intro">Fragrance composed as atmosphere—precise, intimate and made to remain in memory.</p>
+            </div>
+            <div class="col-6 col-lg-2 offset-lg-1">
+                <h2 class="footer-title">Explore</h2>
+                <a href="collection.html">Collection</a>
+                <a href="story.html">Our Story</a>
+                <a href="journal.html">Journal</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="col-6 col-lg-2">
+                <h2 class="footer-title">Assistance</h2>
+                <a href="#">Delivery & Returns</a>
+                <a href="#">Care Guide</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+            <div class="col-lg-2">
+                <h2 class="footer-title">Follow</h2>
+                <div class="footer-social d-flex gap-3">
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between gap-2">
+            <span>© <span data-current-year>2026</span> Aurelle Maison de Parfum</span>
+            <span>Designed for a slower sense of luxury.</span>
+        </div>
+    </div>
+</footer>
+
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/home-premium.js"></script>
+</body>
+</html>
